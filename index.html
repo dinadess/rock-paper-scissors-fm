@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+		rel="stylesheet">
+
+	<title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+<body>
+	<div class="modal">
+		<div class="overlay hidden"></div>
+		<div class="rules-modal hidden">
+			<div class="rules-modal-content">
+				<div class="rules-modal-header">
+					<h2 class="rules-modal-title">Rules</h2>
+					<img src="./images/icon-close.svg" alt="Close Icon" class="close-icon">
+				</div>
+				<img src="./images/image-rules.svg" alt="Rules Image" class="rules">
+			</div>
+		</div>
+	</div>
+	<div class="container main-container">
+		<header class="header-flex">
+			<img src="./images/logo.svg" alt="Rock Paper Scissors Logo" class="logo">
+			<div class="score-container">
+				<div class="score-label">Score</div>
+				<h1 class="score">0</h1>
+			</div>
+		</header>
+		<main>
+			<div class="stats">
+				<div class="games">
+					<span>Game n°:</span>
+					<span class="game-number">0</span>
+				</div>
+				<div class="house-score-container">
+					<span>The House score: </span>
+					<span class="house-score">0</span>
+				</div>
+			</div>
+			<div class="game-level">
+				<span>Level:</span>
+				<button class="level-btn level-easy" value="3">Easy</button>
+				<button class="level-btn level-difficult" value="5">Difficult</button>
+			</div>
+			<div class="original">
+				<div class="d-flex first-step">
+					<div class="bg bg-triangle"></div>
+					<button class="icon icon-paper" value="1">
+						<img src="./images/icon-paper.svg" alt="Paper">
+					</button>
+					<button class="icon icon-scissors" value="0">
+						<img src="./images/icon-scissors.svg" alt="Scissors">
+					</button>
+					<button class="icon icon-rock" value="2">
+						<img src="./images/icon-rock.svg" alt="Rock">
+					</button>
+				</div>
+			</div>
+			<div class="bonus hidden">
+				<div class="d-flex first-step">
+					<div class="bg bg-pentagon"></div>
+					<button class="icon icon-scissors" value="0">
+						<img src="./images/icon-scissors.svg" alt="Scissors">
+					</button>
+					<button class="icon icon-paper" value="1">
+						<img src="./images/icon-paper.svg" alt="Paper">
+					</button>
+					<button class="icon icon-rock" value="2">
+						<img src="./images/icon-rock.svg" alt="Rock">
+					</button>
+					<button class="icon icon-lizard" value="3">
+						<img src="./images/icon-lizard.svg" alt="Lizard">
+					</button>
+					<button class="icon icon-spock" value="4">
+						<img src="./images/icon-spock.svg" alt="Spock">
+					</button>
+				</div>
+			</div>
+			<div class="d-flex second-step hidden">
+				<div class="your-choice choice">
+					<h3>You Picked</h3>
+					<div class="player-0 icon">
+						<img src="" alt="" class="player-0-img">
+					</div>
+				</div>
+				<div class="result-container">
+					<h2 class="game-result"></h2>
+					<button class="again-btn">Play Again</button>
+				</div>
+				<div class="house-choice choice">
+					<h3>The House Picked</h3>
+					<div class="player-1 empty-icon">
+						<img src="" alt="" class="player-1-img">
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="rules-container">
+				<button type="button" class="rules-btn">Rules</button>
+			</div>
+			<div class="attribution">
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				Coded by <a href="https://www.frontendmentor.io/profile/dinadess">Oshyeld</a>.
+			</div>
+		</footer>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
+</html>
