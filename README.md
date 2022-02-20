@@ -2,6 +2,8 @@
 
 This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+[Here is the link to the game](https://dinadess.github.io/rock-paper-scissors-fm/)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -63,8 +65,8 @@ Below are Screenshots of the first steps of the game
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-rock-paper-scissors-css-flexbox-vanilla-js-7UV0WQm62)
+- Live Site URL: [Check out the live URL here](https://dinadess.github.io/rock-paper-scissors-fm/)
 
 ## My process
 
@@ -106,7 +108,7 @@ After some mistakes, I got this solution...
 
 ```js
 console.log(
-  "There are tons of lines of code I'm proud of as I am currently learning JS, you can take a look at my js code on your own."
+  `I am proud of every single line of js code I wrote cause at the beginning I thought it would be a very big challenge but finally I nailed it!`
 );
 ```
 
